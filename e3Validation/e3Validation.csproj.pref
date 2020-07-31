@@ -1,0 +1,14 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="e3Validation.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="e3Validation.rxtst" />
+    <Element value="startE3App.rxrec" />
+    <Element value="e3ValidationRepository.rxrep" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

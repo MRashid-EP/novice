@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="14.75s"
+		durationms="14752"
+		type="root"
+		rid="d751f5ebc22e295"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="MRashid"
+		rxversion="9.3.2.0"
+		host="RMT1556"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="7/29/2020 3:31:59 PM"
+		timestampiso="2020-07-29T19:31:59"
+		endtime="7/29/2020 3:32:14 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ArrowToLogIn">
+		<detail>
+			ArrowToLogIn
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.743"
+			timeRelativeToTestModuleStartTime="00:03.743"
+			timeWallClock="15:32:03"
+			time="00:03.743"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComEnclarapharmaciaE3Mobileapp.Linear.ArrowButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.enclarapharmacia.E3Mobileapp']/form[@title='MainActivity']/container[@rid='content']/container[@containertype='Linear']//androidelement[@contentdescription='stackLayout']/androidelement[5]/androidelement[1]/androidelement[1]/androidelement[6]/picture[@contentdescription='Login']"
+				itempath=".//androidelement[@contentdescription='stackLayout']/androidelement[5]/androidelement[1]/androidelement[1]/androidelement[6]/picture[@contentdescription='Login']"
+				fullname="e3ValidationRepository.ComEnclarapharmaciaE3Mobileapp.Linear.ArrowButton"
+				id="45779816d2184033b4d63164ec9e083c"
+				timeout="90000"
+				codefile="C:\Users\mrashid\Downloads\e3Validation\e3Validation\ArrowToLogIn.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.704"
+			timeRelativeToTestModuleStartTime="00:05.704"
+			timeWallClock="15:32:05"
+			time="00:05.704"
+			level="Warn"
+			category="Qt">
+			<message>
+				Ranorex can’t identify UI elements in your Qt AUT because it couldn’t instrument it automatically. Start Ranorex Studio and the AUT with the same privileges, preferably as an administrator, and ensure your Qt version is supported.<br/>Process: 'vlc' (pid 1652)<br/>https://www.ranorex.com/help/v9.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="QtWindow"
+				showInProgressDialog="False"
+				codefile="C:\Users\mrashid\Downloads\e3Validation\e3Validation\ArrowToLogIn.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.754"
+			timeRelativeToTestModuleStartTime="00:14.754"
+			timeWallClock="15:32:14"
+			time="00:14.754"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

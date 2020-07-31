@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.7m"
+		durationms="103829"
+		type="root"
+		rid="29d8f8f84b86a44"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="MRashid"
+		rxversion="9.3.2.0"
+		host="RMT1556"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="7/25/2020 10:05:05 PM"
+		timestampiso="2020-07-26T02:05:05"
+		endtime="7/25/2020 10:06:49 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="EnterUsername">
+		<detail>
+			EnterUsername
+		</detail>
+		<errormessage>
+			Failed to find item 'e3ValidationRepository.ComEnclarapharmaciaE3Mobileapp.Linear.UsernameField'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.722"
+			timeRelativeToTestModuleStartTime="00:03.722"
+			timeWallClock="22:05:08"
+			time="00:03.722"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComEnclarapharmaciaE3Mobileapp.Linear.UsernameField' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.enclarapharmacia.E3Mobileapp']/form[@title='MainActivity']/container[@rid='content']/container[@containertype='Linear']//androidelement[@contentdescription='stackLayout']/androidelement[5]/androidelement[1]/androidelement[1]/androidelement[2]/text[@contentdescription='username']"
+				itempath=".//androidelement[@contentdescription='stackLayout']/androidelement[5]/androidelement[1]/androidelement[1]/androidelement[2]/text[@contentdescription='username']"
+				fullname="e3ValidationRepository.ComEnclarapharmaciaE3Mobileapp.Linear.UsernameField"
+				id="0c8348c8d0d944bbbb6f3ff284bc136d"
+				timeout="90000"
+				codefile="C:\Users\mrashid\Downloads\e3Validation\e3Validation\EnterUsername.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:33.826"
+			timeRelativeToTestModuleStartTime="01:33.826"
+			timeWallClock="22:06:39"
+			time="01:33.826"
+			level="Error"
+			category="Module">
+			<message>
+				Failed to find item 'e3ValidationRepository.ComEnclarapharmaciaE3Mobileapp.Linear.UsernameField'.<br/>No element found for path '/mobileapp[@title='com.enclarapharmacia.E3Mobileapp']/form[@title='MainActivity']/container[@rid='content']/container[@containertype='Linear']//androidelement[@contentdescription='stackLayout']/androidelement[5]/androidelement[1]/androidelement[1]/androidelement[2]/text[@contentdescription='username']' at step 'mobileapp[@title='com.enclarapharmacia.E3Mobileapp']' after 1015 attempts within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at e3Validation.e3ValidationRepositoryFolders.LinearFolder.get_UsernameField() in C:\Users\mrashid\Downloads\e3Validation\e3Validation\e3ValidationRepository.cs:line 218&#13;&#10;   at e3Validation.EnterUsername.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\mrashid\Downloads\e3Validation\e3Validation\EnterUsername.cs:line 83&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\mrashid\Downloads\e3Validation\e3Validation\EnterUsername.cs"
+				codeline="83"
+				type="repoitem"
+				path="/mobileapp[@title='com.enclarapharmacia.E3Mobileapp']/form[@title='MainActivity']/container[@rid='content']/container[@containertype='Linear']//androidelement[@contentdescription='stackLayout']/androidelement[5]/androidelement[1]/androidelement[1]/androidelement[2]/text[@contentdescription='username']"
+				itempath=".//androidelement[@contentdescription='stackLayout']/androidelement[5]/androidelement[1]/androidelement[1]/androidelement[2]/text[@contentdescription='username']"
+				fullname="e3ValidationRepository.ComEnclarapharmaciaE3Mobileapp.Linear.UsernameField"
+				id="0c8348c8d0d944bbbb6f3ff284bc136d"
+				timeout="90000"
+				failedStep="mobileapp[@title='com.enclarapharmacia.E3Mobileapp']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

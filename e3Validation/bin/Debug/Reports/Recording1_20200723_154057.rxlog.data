@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.2m"
+		durationms="73088"
+		type="root"
+		rid="486d978878f8d15"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="MRashid"
+		rxversion="9.3.2.0"
+		host="SM-G960U (Unknown)
+WLAN - 192.168.1.5"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="7/23/2020 3:40:59 PM"
+		timestampiso="2020-07-23T19:40:59"
+		endtime="7/23/2020 3:42:12 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Failed to find item 'e3ValidationRepository.ComEnclarapharmaciaE3Mobileapp.HomepageMenu'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.010"
+			timeRelativeToTestModuleStartTime="00:03.010"
+			timeWallClock="15:41:02"
+			time="00:03.010"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComEnclarapharmaciaE3Mobileapp.HomepageMenu' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.enclarapharmacia.E3Mobileapp']/?/?/toolbar/?/?/container[@contentdescription='  Patients, OK']/container[1]/picture[1]"
+				itempath="?/?/toolbar/?/?/container[@contentdescription='  Patients, OK']/container[1]/picture[1]"
+				fullname="e3ValidationRepository.ComEnclarapharmaciaE3Mobileapp.HomepageMenu"
+				id="c6b8d12ad2214cbb9dcbb966626ee7e9"
+				timeout="60000"
+				codefile="C:\Users\mrashid\Downloads\e3Validation\e3Validation\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:03.086"
+			timeRelativeToTestModuleStartTime="01:03.086"
+			timeWallClock="15:42:02"
+			time="01:03.086"
+			level="Error"
+			category="Module">
+			<message>
+				Failed to find item 'e3ValidationRepository.ComEnclarapharmaciaE3Mobileapp.HomepageMenu'.<br/>No element found for path '/mobileapp[@title='com.enclarapharmacia.E3Mobileapp']/?/?/toolbar/?/?/container[@contentdescription='  Patients, OK']/container[1]/picture[1]' at step 'mobileapp[@title='com.enclarapharmacia.E3Mobileapp']' after 1180 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at e3Validation.e3ValidationRepositoryFolders.ComEnclarapharmaciaE3MobileappAppFolder.get_HomepageMenu() in C:\Users\mrashid\Downloads\e3Validation\e3Validation\e3ValidationRepository.cs:line 133&#13;&#10;   at e3Validation.Recording1.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\mrashid\Downloads\e3Validation\e3Validation\Recording1.cs:line 83&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\mrashid\Downloads\e3Validation\e3Validation\Recording1.cs"
+				codeline="83"
+				type="repoitem"
+				path="/mobileapp[@title='com.enclarapharmacia.E3Mobileapp']/?/?/toolbar/?/?/container[@contentdescription='  Patients, OK']/container[1]/picture[1]"
+				itempath="?/?/toolbar/?/?/container[@contentdescription='  Patients, OK']/container[1]/picture[1]"
+				fullname="e3ValidationRepository.ComEnclarapharmaciaE3Mobileapp.HomepageMenu"
+				id="c6b8d12ad2214cbb9dcbb966626ee7e9"
+				timeout="60000"
+				failedStep="mobileapp[@title='com.enclarapharmacia.E3Mobileapp']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

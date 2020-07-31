@@ -1,0 +1,596 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>e3Validation</name>
+    </assembly>
+    <members>
+        <member name="T:e3Validation.ArrowToLogIn">
+             <summary>
+            The ArrowToLogIn recording.
+             </summary>
+        </member>
+        <member name="F:e3Validation.ArrowToLogIn.repo">
+            <summary>
+            Holds an instance of the e3ValidationRepository repository.
+            </summary>
+        </member>
+        <member name="M:e3Validation.ArrowToLogIn.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:e3Validation.ArrowToLogIn.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:e3Validation.ArrowToLogIn.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:e3Validation.ArrowToLogIn.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:e3Validation.ArrowToLogIn.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:e3Validation.ArrowToLogIn.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:e3Validation.burgerMenu">
+             <summary>
+            The burgerMenu recording.
+             </summary>
+        </member>
+        <member name="F:e3Validation.burgerMenu.repo">
+            <summary>
+            Holds an instance of the e3ValidationRepository repository.
+            </summary>
+        </member>
+        <member name="M:e3Validation.burgerMenu.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:e3Validation.burgerMenu.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:e3Validation.burgerMenu.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:e3Validation.burgerMenu.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:e3Validation.burgerMenu.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:e3Validation.burgerMenu.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:e3Validation.CloseE3App">
+             <summary>
+            The CloseE3App recording.
+             </summary>
+        </member>
+        <member name="F:e3Validation.CloseE3App.repo">
+            <summary>
+            Holds an instance of the e3ValidationRepository repository.
+            </summary>
+        </member>
+        <member name="M:e3Validation.CloseE3App.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:e3Validation.CloseE3App.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:e3Validation.CloseE3App.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:e3Validation.CloseE3App.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:e3Validation.CloseE3App.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:e3Validation.CloseE3App.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:e3Validation.Delay2sec">
+             <summary>
+            The Delay2sec recording.
+             </summary>
+        </member>
+        <member name="F:e3Validation.Delay2sec.repo">
+            <summary>
+            Holds an instance of the e3ValidationRepository repository.
+            </summary>
+        </member>
+        <member name="M:e3Validation.Delay2sec.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:e3Validation.Delay2sec.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:e3Validation.Delay2sec.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:e3Validation.Delay2sec.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:e3Validation.Delay2sec.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:e3Validation.Delay2sec.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:e3Validation.e3ValidationRepository">
+            <summary>
+            The class representing the e3ValidationRepository element repository.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the e3ValidationRepository element repository.
+            </summary>
+        </member>
+        <member name="M:e3Validation.e3ValidationRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepository.ComEnclarapharmaciaE3Mobileapp">
+            <summary>
+            The ComEnclarapharmaciaE3Mobileapp folder.
+            </summary>
+        </member>
+        <member name="T:e3Validation.e3ValidationRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:e3Validation.e3ValidationRepositoryFolders.ComEnclarapharmaciaE3MobileappAppFolder">
+            <summary>
+            The ComEnclarapharmaciaE3MobileappAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:e3Validation.e3ValidationRepositoryFolders.ComEnclarapharmaciaE3MobileappAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ComEnclarapharmaciaE3Mobileapp  folder.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepositoryFolders.ComEnclarapharmaciaE3MobileappAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepositoryFolders.ComEnclarapharmaciaE3MobileappAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepositoryFolders.ComEnclarapharmaciaE3MobileappAppFolder.HomepageMenu">
+            <summary>
+            The HomepageMenu item.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepositoryFolders.ComEnclarapharmaciaE3MobileappAppFolder.HomepageMenuInfo">
+            <summary>
+            The HomepageMenu item info.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepositoryFolders.ComEnclarapharmaciaE3MobileappAppFolder.Linear">
+            <summary>
+            The Linear folder.
+            </summary>
+        </member>
+        <member name="T:e3Validation.e3ValidationRepositoryFolders.LinearFolder">
+            <summary>
+            The LinearFolder folder.
+            </summary>
+        </member>
+        <member name="M:e3Validation.e3ValidationRepositoryFolders.LinearFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Linear  folder.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepositoryFolders.LinearFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepositoryFolders.LinearFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepositoryFolders.LinearFolder.UsernameField">
+            <summary>
+            The UsernameField item.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepositoryFolders.LinearFolder.UsernameFieldInfo">
+            <summary>
+            The UsernameField item info.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepositoryFolders.LinearFolder.Password">
+            <summary>
+            The Password item.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepositoryFolders.LinearFolder.PasswordInfo">
+            <summary>
+            The Password item info.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepositoryFolders.LinearFolder.PasswordField">
+            <summary>
+            The PasswordField item.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepositoryFolders.LinearFolder.PasswordFieldInfo">
+            <summary>
+            The PasswordField item info.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepositoryFolders.LinearFolder.ArrowButton">
+            <summary>
+            The ArrowButton item.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepositoryFolders.LinearFolder.ArrowButtonInfo">
+            <summary>
+            The ArrowButton item info.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepositoryFolders.LinearFolder.Logout">
+            <summary>
+            The Logout item.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepositoryFolders.LinearFolder.LogoutInfo">
+            <summary>
+            The Logout item info.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepositoryFolders.LinearFolder.QaProdTest">
+            <summary>
+            The QaProdTest item.
+            </summary>
+        </member>
+        <member name="P:e3Validation.e3ValidationRepositoryFolders.LinearFolder.QaProdTestInfo">
+            <summary>
+            The QaProdTest item info.
+            </summary>
+        </member>
+        <member name="T:e3Validation.EnterPassword">
+             <summary>
+            The EnterPassword recording.
+             </summary>
+        </member>
+        <member name="F:e3Validation.EnterPassword.repo">
+            <summary>
+            Holds an instance of the e3ValidationRepository repository.
+            </summary>
+        </member>
+        <member name="M:e3Validation.EnterPassword.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:e3Validation.EnterPassword.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:e3Validation.EnterPassword.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:e3Validation.EnterPassword.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:e3Validation.EnterPassword.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:e3Validation.EnterPassword.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:e3Validation.EnterUsername">
+             <summary>
+            The EnterUsername recording.
+             </summary>
+        </member>
+        <member name="F:e3Validation.EnterUsername.repo">
+            <summary>
+            Holds an instance of the e3ValidationRepository repository.
+            </summary>
+        </member>
+        <member name="M:e3Validation.EnterUsername.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:e3Validation.EnterUsername.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:e3Validation.EnterUsername.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:e3Validation.EnterUsername.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:e3Validation.EnterUsername.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:e3Validation.EnterUsername.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:e3Validation.LogOut">
+             <summary>
+            The LogOut recording.
+             </summary>
+        </member>
+        <member name="F:e3Validation.LogOut.repo">
+            <summary>
+            Holds an instance of the e3ValidationRepository repository.
+            </summary>
+        </member>
+        <member name="M:e3Validation.LogOut.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:e3Validation.LogOut.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:e3Validation.LogOut.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:e3Validation.LogOut.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:e3Validation.LogOut.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:e3Validation.LogOut.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:e3Validation.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:e3Validation.Recording1.repo">
+            <summary>
+            Holds an instance of the e3ValidationRepository repository.
+            </summary>
+        </member>
+        <member name="M:e3Validation.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:e3Validation.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:e3Validation.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:e3Validation.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:e3Validation.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:e3Validation.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:e3Validation.Recording2">
+             <summary>
+            The Recording2 recording.
+             </summary>
+        </member>
+        <member name="F:e3Validation.Recording2.repo">
+            <summary>
+            Holds an instance of the e3ValidationRepository repository.
+            </summary>
+        </member>
+        <member name="M:e3Validation.Recording2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:e3Validation.Recording2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:e3Validation.Recording2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:e3Validation.Recording2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:e3Validation.Recording2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:e3Validation.Recording2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:e3Validation.startE3App">
+             <summary>
+            The startE3App recording.
+             </summary>
+        </member>
+        <member name="F:e3Validation.startE3App.repo">
+            <summary>
+            Holds an instance of the e3ValidationRepository repository.
+            </summary>
+        </member>
+        <member name="M:e3Validation.startE3App.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:e3Validation.startE3App.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:e3Validation.startE3App.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:e3Validation.startE3App.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:e3Validation.startE3App.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:e3Validation.startE3App.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:e3Validation.validation">
+             <summary>
+            The validation recording.
+             </summary>
+        </member>
+        <member name="F:e3Validation.validation.repo">
+            <summary>
+            Holds an instance of the e3ValidationRepository repository.
+            </summary>
+        </member>
+        <member name="M:e3Validation.validation.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:e3Validation.validation.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:e3Validation.validation.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:e3Validation.validation.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:e3Validation.validation.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:e3Validation.validation.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
