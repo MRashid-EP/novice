@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="69381ff6-d6ca-4649-a634-0d7614201b81"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="startE3App"
+	namespace="e3Validation">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runmobileapprecorditem
+		application="com.enclarapharmacia.E3Mobileapp"
+		devicename="SM-G960U"
+		duration="3500ms"
+		enabled="True"
+		optional="False"
+		resetInitialState="True">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</runmobileapprecorditem>
+	</recorditems>
+	<repository
+	id="8dea4dff-fcb8-4927-b0c2-f0b88f8fa10e"
+	name="e3ValidationRepository"
+	relativepath="e3ValidationRepository.rxrep">
+		<codegen
+		classname="e3ValidationRepository"
+		namespace="e3Validation">
+		</codegen>
+		<rootfolder
+		id="165c054d-831d-4927-9349-478e9651b92f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		startE3App.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

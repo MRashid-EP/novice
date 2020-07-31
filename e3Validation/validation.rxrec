@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c98f74c5-c6d6-43aa-856a-40a7fbaaa397"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="validation"
+	namespace="e3Validation">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="c2c35d4f-138d-4de4-99d6-c10a288b654b">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c588f49b-7635-4670-9f5e-c45c68c190fe"
+			sourcename="RepositoryEditor">
+				<path>
+					/mobileapp[@title='com.enclarapharmacia.E3Mobileapp']/form[@title='MainActivity']/container[@rid='content']/container[@containertype='Linear']//androidelement[@contentdescription='stackLayout']/androidelement[1]/text
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				QaProdTest
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="8dea4dff-fcb8-4927-b0c2-f0b88f8fa10e"
+	name="e3ValidationRepository"
+	relativepath="e3ValidationRepository.rxrep">
+		<codegen
+		classname="e3ValidationRepository"
+		namespace="e3Validation">
+		</codegen>
+		<rootfolder
+		id="165c054d-831d-4927-9349-478e9651b92f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		validation.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

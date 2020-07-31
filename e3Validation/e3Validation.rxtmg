@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="e3Validation"
+      id="96dd2247-506f-4b82-a6df-8a4356f454b2"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="e3Validation"
+      id="96dd2247-506f-4b82-a6df-8a4356f454b2"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

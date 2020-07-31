@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6388137f-1ce2-4ecd-a433-c196535dd238"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Delay2sec"
+	namespace="e3Validation">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="300ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="8dea4dff-fcb8-4927-b0c2-f0b88f8fa10e"
+	name="e3ValidationRepository"
+	relativepath="e3ValidationRepository.rxrep">
+		<codegen
+		classname="e3ValidationRepository"
+		namespace="e3Validation">
+		</codegen>
+		<rootfolder
+		id="165c054d-831d-4927-9349-478e9651b92f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Delay2sec.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

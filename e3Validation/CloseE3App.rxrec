@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0076f562-dbd8-4316-bd9f-1f4c896068b3"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseE3App"
+	namespace="e3Validation">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="7d9ff022-6620-4012-b462-c35ff1814f95">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="26df83d2-8b55-4282-b6e9-1f4ff84678e5"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="mobileapp, androidapp"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="0"
+				prefcap="mobileapp"
+				rect="0,0,1080,2094"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="devicename"
+					type="System.String">
+						SM-G960U
+					</attribute>
+					<attribute
+					name="deviceorientation"
+					type="Ranorex.Core.Remoting.DeviceOrientation, Ranorex.Core, Culture=neutral">
+						Portrait
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						E3 Mobile
+					</attribute>
+					<attribute
+					name="osversion"
+					type="System.String">
+						Android 10
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						com.enclarapharmacia.E3Mobileapp
+					</attribute>
+					<attribute
+					name="versioncode"
+					type="System.String">
+						6280
+					</attribute>
+					<attribute
+					name="versionname"
+					type="System.String">
+						2.4.4180
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.enclarapharmacia.E3Mobileapp']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="8dea4dff-fcb8-4927-b0c2-f0b88f8fa10e"
+	name="e3ValidationRepository"
+	relativepath="e3ValidationRepository.rxrep">
+		<codegen
+		classname="e3ValidationRepository"
+		namespace="e3Validation">
+		</codegen>
+		<rootfolder
+		id="165c054d-831d-4927-9349-478e9651b92f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseE3App.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
